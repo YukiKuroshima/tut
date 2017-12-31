@@ -10,15 +10,15 @@ app.config.update(
         MAIL_SERVER='smtp.gmail.com',
         MAIL_PORT=465,
         MAIL_USE_SSL=True,
-        MAIL_USERNAME = 'testbyyuuki@google.com',
-        MAIL_PASSWORD = 'fgrlspuehhaxlhey'
+        MAIL_USERNAME = 'test@gmail.com',
+        MAIL_PASSWORD = 'test'
         )
 
 mail=Mail(app)
 
 @app.route("/")
 def index():
-    msg = Message('Snippet', sender = 'testbyyuuki@gmail.com', recipients = ['k.yuuki3327@gmail.com'])
+    msg = Message('Snippet', sender = 'test@gmail.com', recipients = ['test@gmail.com'])
     msg.body = "Hello Flask message sent from Flask-Mail"
     mail.send(msg)
     return "Sent"

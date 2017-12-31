@@ -14,8 +14,8 @@ class BaseConfig:
     MAIL_PORT = 465
     MAIL_USE_SSL = True
     MAIL_USE_TLS = False
-    MAIL_USERNAME = 'testbyyuuki@google.com'
-    MAIL_PASSWORD = 'fgrlspuehhaxlhey'
+    MAIL_USERNAME = 'test@google.com'
+    MAIL_PASSWORD = 'test'
 
 
 class DevelopmentConfig(BaseConfig):
