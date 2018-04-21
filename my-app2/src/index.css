@@ -1,0 +1,31 @@
+.card {
+    width: 300px;
+    background-color: grey;
+    margin: 10px;
+}
+
+.no-bg {
+    background-color: unset;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 960px;
+    margin: auto;
+}
+
+.blue-text {
+    color: #286194;
+}
+.grey-text {
+    color: #B2B2B2;
+}
